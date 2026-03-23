@@ -13,7 +13,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
+        - image: nginx:latest
           name: guestbook-ui
           ports:
             - containerPort: 80
