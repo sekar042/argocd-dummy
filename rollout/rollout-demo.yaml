@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
       - name: demo
-        image: nginx
+        image: nginx:stable
         ports:
         - containerPort: 8080
