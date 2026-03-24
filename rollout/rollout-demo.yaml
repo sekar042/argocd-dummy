@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
       - name: demo
-        image: argoproj/rollouts-demo::slow-purple
+        image: argoproj/rollouts-demo:slow-purple
         ports:
         - containerPort: 8080
